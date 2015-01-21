@@ -1,15 +1,24 @@
 #Code Book Final Project
 ============================
 
-Subject | Activity | Signals | Mean
-======= | ======== | ======= | ====
-Experimantal Subjects # 1 to 30 | Physical Activity | Type of Signal Measured | Mean of Signals grouped by Subject and Activity
- | laying, sitting, standing, walking, walking downstairs, walking upstairs | t is a time and f is a frequency measurement |
- | | BodyAcc, GravityAcc, BodyAccJerk, BodyGyro, BodyGyroJerk, BodyAccMag, GravityAccMag, BodyAccJerkMag, BodyGyroMag | 
- | | BodyGyroJerkMag, BodyAcc, BodyAccJerk, BodyGyro, BodyAccMag, BodyAccJerkMag, BodyGyroMag, BodyGyroJerkMag  | 
- | | Different types signals from different types of movements, sometimes BodyBody is included but undefined | 
- | | std() is standard deviation, mean() and meanFreq() is mean  |
- | | X, Y, Z are coordinantes |
+##Variables
+============================
+
+* Subject
+  * Experimental Subjects # 1 to 30
+* Activity
+  * Physical Activity
+  * laying, sitting, standing, walking, walking downstairs, walking upstairs
+* Signals
+  * Type of Signal Measured
+  * t is a time and f is a frequency measurement
+  * BodyAcc, GravityAcc, BodyAccJerk, BodyGyro, BodyGyroJerk, BodyAccMag, GravityAccMag, BodyAccJerkMag, BodyGyroMag
+  * BodyGyroJerkMag, BodyAcc, BodyAccJerk, BodyGyro, BodyAccMag, BodyAccJerkMag, BodyGyroMag, BodyGyroJerkMag
+  * Different types signals from different types of movements, sometimes BodyBody is included but undefined
+  * std() is standard deviation, mean() and meanFreq() is mean
+  * X, Y, Z are coordinantes
+* Mean
+  * Mean of Signals grouped by Subject and Activity
  
 ##What was done
 ===========================
